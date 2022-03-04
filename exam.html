@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <link rel="stylesheet" href="exam.css">
+</head>
+
+<body>
+    <div id="myDIV" class="header">
+        <h1>To do list</h1>
+        <input type="text" id="myInput" placeholder="Titre...">
+        <span onclick="newElement()" class="add">Add</span>
+        <label for="start"></label>
+
+        <input type="date" id="start" name="trip-start" value="2022-03-04" min="2000-01-01" max="2030-12-31">
+        <form>
+            <input Type="button" value="Reset" class="reset" onClick="history.go(0)">
+        </form>
+
+    </div>
+    <ul id="liste"></ul>
+</body>
+<script src="exam.js"></script>
+
+</html>
